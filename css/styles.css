@@ -121,7 +121,7 @@ li.header-contact-item:hover link, li.header-contact-item:focus link{
     padding: 200px 0;
     color: white;
     background:var(--main-color) ;
-    background-image: url("../images/imgback.jpg"),linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)) ;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/imgback.jpg");
     background-repeat:no-repeat ;
     background-position:center ;
 }
@@ -135,6 +135,7 @@ li.header-contact-item:hover link, li.header-contact-item:focus link{
     text-transform: uppercase;
 }
 .head-button{
+    border-radius: 4px;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.875;
@@ -325,8 +326,10 @@ li.header-contact-item:hover link, li.header-contact-item:focus link{
     color: white;
     margin-right: 0;
 }
-.footer-contact{
+address{
     margin-top: 20px;
+}
+.footer-contact{
     line-height: 1.71 ;
     font-style: normal;
 }
@@ -381,7 +384,7 @@ li.header-contact-item:hover link, li.header-contact-item:focus link{
     width: 100%;
     height: 100%;
     border: 1px solid var(--icon-color);
-
+    border-radius: 4px;
 }
 .client-item:not(:last-child){
     margin-right: 30px;
